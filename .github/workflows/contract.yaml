@@ -40,7 +40,7 @@ jobs:
 
       - id: pretty-test
         name: Install pretty-test
-        run: cargo install cargo-pretty-test
+        run: cargo install cargo-pretty-test --git https://github.com/zjp-CN/pretty-test.git --branch experimental
 
       - id: contract
         name: Run contract
