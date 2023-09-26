@@ -46,7 +46,7 @@ jobs:
         name: Run contract
         run: |
           #cargo test --lib --bins
-          cargo pretty-test
+          cargo pretty-test --color always
         
       - id: summary
         name: Generate contract Summary
