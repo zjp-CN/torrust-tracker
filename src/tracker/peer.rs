@@ -2,14 +2,14 @@
 //!
 //! A sample peer:
 //!
-//! ```rust,no_run
+//! ```rust
 //! use torrust_tracker::tracker::peer;
 //! use std::net::SocketAddr;
 //! use std::net::IpAddr;
 //! use std::net::Ipv4Addr;
 //! use torrust_tracker::shared::clock::DurationSinceUnixEpoch;
 //! use aquatic_udp_protocol::{AnnounceEvent, NumberOfBytes};
-//!
+//! panic!();
 //! peer::Peer {
 //!     peer_id: peer::Id(*b"-qB00000000000000000"),
 //!     peer_addr: SocketAddr::new(IpAddr::V4(Ipv4Addr::new(126, 0, 0, 1)), 8080),
