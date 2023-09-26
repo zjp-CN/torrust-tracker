@@ -45,8 +45,8 @@ jobs:
       - id: contract
         name: Run contract
         run: |
-          cargo test --lib --bins
-          cargo pretty-test --lib --bins
+          #cargo test --lib --bins
+          cargo pretty-test
         
       - id: summary
         name: Generate contract Summary
